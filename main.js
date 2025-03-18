@@ -27,9 +27,8 @@ lines.forEach(line => {
 
 
 app.get('/spare-parts', (req, res) => {
-  res.json(result); 
+  res.json(result.slice(0, 30)); 
 });
-
 
 app.get('/', (req, res) => {
   res.send("Welcome to the Spare Parts API! Visit /spare-parts to get the data.");
