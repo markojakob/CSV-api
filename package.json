@@ -1,0 +1,24 @@
+{
+  "name": "csv-api",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markojakob/CSV-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markojakob/CSV-api/issues"
+  },
+  "homepage": "https://github.com/markojakob/CSV-api#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "fuse.js": "^7.1.0"
+  },
+  "description": ""
+}
